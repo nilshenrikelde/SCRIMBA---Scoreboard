@@ -1,5 +1,13 @@
 body {
   margin: 0;
+  display: grid;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  place-items: center; /* Center items both horizontally and vertically */
+  background-image: url("./Assets/markus-spiske-BfphcCvhl6E-unsplash.jpg");
+  background-size: cover; /* Scale the image to cover the entire element */
+  background-position: center; /* Center the image within the element */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
 .container {
@@ -7,8 +15,11 @@ body {
   justify-content: space-around;
   align-items: flex-start;
   background-color: #1b244a;
+  opacity: 0.95;
   width: 575px;
   height: 385px;
+  border-radius: 5px;
+  border: #eeeeee 1px solid;
 }
 
 .score {
@@ -37,6 +48,16 @@ body {
   text-align: center;
   justify-content: center;
   color: #9aabd8;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 35.89px;
+  text-align: center;
+  color: #eeeeee;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 h3 {
