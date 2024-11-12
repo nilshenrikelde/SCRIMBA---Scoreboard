@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="board-title-home">
+        <h3>HOME</h3>
+        <div class="score">
+          <p id="home-score">0</p>
+        </div>
+        <div class="add-points-btns">
+          <button
+            class="point-button"
+            id="home-plus-one"
+            onclick="addOneHome()"
+          >
+            + 1
+          </button>
+          <button
+            class="point-button"
+            id="home-plus-two"
+            onclick="addTwoHome()"
+          >
+            +2
+          </button>
+          <button
+            class="point-button"
+            id="home-plus-three"
+            onclick="addThreeHome()"
+          >
+            +3
+          </button>
+        </div>
+      </div>
+
+      <div class="board-title-guest">
+        <h3>GUEST</h3>
+        <div class="score">
+          <p id="guest-score">0</p>
+        </div>
+        <div class="add-points-btns">
+          <button
+            class="point-button"
+            id="guest-plus-one"
+            onclick="addOneAway()"
+          >
+            + 1
+          </button>
+          <button
+            class="point-button"
+            id="guest-plus-two"
+            onclick="addTwoAway()"
+          >
+            +2
+          </button>
+          <button
+            class="point-button"
+            id="guest-plus-three"
+            onclick="addThreeAway()"
+          >
+            +3
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
